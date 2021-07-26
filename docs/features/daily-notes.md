@@ -1,3 +1,7 @@
+---
+tags: daily-notes
+---
+
 # Daily Notes
 
 Daily notes allow you to quickly create and access notes for today.
