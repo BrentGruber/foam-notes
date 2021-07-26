@@ -33,6 +33,9 @@
         "note": "#277da1",
         "placeholder": "#545454",
         "feature": "green",
+        "book": "#6169BD",
+        "person": "red",
+        "place": "#57EB09"
     }
 }
 }
