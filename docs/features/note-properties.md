@@ -1,6 +1,8 @@
 ---
+title: Note-Properties
 type: feature
 keywords: hello world
+tags: my-tag-1
 ---
 
 # Note Properties
