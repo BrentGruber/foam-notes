@@ -27,3 +27,16 @@
 15. ```sudo usermod -aG docker mist```
 16. ```wget https://github.com/mistio/mist-ce/releases/download/v4.5.5/docker-compose.yml```
 17. ```docker-compose up -d```
+18. ```curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.gpg | sudo apt-key add -```
+19. ```curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.list | sudo tee /etc/apt/sources.list.d/tailscale.list```
+20. ```sudo apt-get update```
+21. ```sudo apt-get install tailscale```
+22. ```sudo tailscale up --authkey tskey-29ef3b518c4a551a08c562c6```
+23. ```su - mist```
+24. ```cd /home/mist/mist-deploy/settings```
+25. ```nano settings.py```
+26. 
+```python
+#replace CORE_URI="http://localhost" with dns name
+CORE_URI="https://mist.brentgruber.com"
+```
