@@ -3,9 +3,13 @@
 #### 1. Which of the following would be considered a categorical variable?
 
 a. Gender, measured as 1=Male, 2=Female, 3=Other
+
 b. Height, measured in cm 
+
 c. Income, measured in dollars
+
 d. Education, measured in 1=less than college, 2=college, 3=post-college
+
 
 **Answer**
 
@@ -21,9 +25,13 @@ b + c would be considered continuous variables, because they can take on many di
 #### 2. Which of the following would be considered an ordinal variable?
    
 a. Treatment, measured as 1=Treatment, 2=Control
+
 b. Gender, measured as 1=Male, 2=Female, 3=Other
+
 c. Ideology, measured from 0=Very Liberal to 7=Very Conservative
+
 d. Race, measured as 1=Whites, 2=Blacks, 3=Hispanic, 4=Asian, 5=Others
+
 
 **Answer**
 
@@ -36,9 +44,13 @@ An ordinal variable is a categorical variable in which the values have order in 
 #### 3. Which measure would you use when you have a categorical variable and you want to measure central tendency of this variable?
 
 a. Mean
+
 b. Median
+
 c. Mode
+
 d. Variance
+
 
 **Answer**
 
@@ -136,16 +148,22 @@ if we add these together we would get a 4/4 chance or 100% chance of A or B land
 #### 7. Which statement is not correct?
 
 a. In a normal distribution, the mode, median, and mean are all the same
+
 b. A normal distribution can be invoked by the Central Limit Theorem
+
 c. We want to infer the sample mean and standard deviation from the population mean and standard deviation
+
 d. None of these three are correct
+
 
 **Answer**
 
 c
 
 a) A Normal distribution is symmetric and it is unimodal . thus mean median and mode are same for Normal distribution.
+
 b) Yes in case of large sample , using Central Liimit theorem , any distribution can be approximated by Normal distribution .
+
 c) sample mean and std deviation cannot be inferred from population mean and standard deviation, however population mean and standard deviation can be inferred from sample
 
 This would be like inferring the results of a poll in california if you knew how every person in the state would answer. You can't make that inferrence because you don't know which samples were taken.
@@ -155,8 +173,11 @@ This would be like inferring the results of a poll in california if you knew how
 #### 8. You have two variables, X and Y. The sample size is N=1000. The mean of X is 2.90. the mean of Y is 2.95. The correlation between them is 0.72. The variance of X is 4. The variance of Y is 9. What is the covariance between X and Y?
 
 a. 25.92
+
 b. 11.34
+
 c. 4.32
+
 d. 0.36
 
 **Answer**
@@ -164,15 +185,23 @@ d. 0.36
 c
 
 N=1000
+
 Xbar = 2.9
+
 Ybar = 2.95
+
 p = 0.72 (correlation coefficient)
+
 var(X) = 4
+
 var(Y) = 9
 
 p = cov(X,Y)/sqrt(var(X)*var(Y))
+
 0.72 = cov(X,Y)/sqrt(4*9)
+
 0.72 = cov(X,Y)/6
+
 4.32 = cov(X,Y)
 
 
@@ -180,8 +209,11 @@ p = cov(X,Y)/sqrt(var(X)*var(Y))
 #### 9. Imagine that we're fielding a survey at OSU. 54 percent of students responded that they support free trade. If we survey a random group of 100, what is the P(>54 students support free trade)
 
 a. P(Y<54)
+
 b. 1-P(Y<54)
+
 c. P(Y=54)
+
 d. 1-P(Y>54)
 
 
@@ -196,9 +228,13 @@ P(Y>=54) = 1 - P(Y<54)
 #### 10. When we have the p-value of 0.001
 
 a. it means that we fail to reject the null hypothesis
+
 b. it means that there is a .999 chance our theory could be supported
+
 c. it means that there is a causal relationship between the two variables
+
 d. it means that the relationship between the two variables is stronger than the one with the p-value of 0.05
+
 e. none of these four are correct/cannot say
 
 **Answer**
@@ -218,8 +254,11 @@ If you are flipping a coin multiple times, your null hypothesis would be that th
 #### 11. You're interested in evaluating the effect of gender on income and in finding a pay disparity between men and women. Income is measured with individuals' wage (in dollars). Gender is self-reported. Which test would you use?
 
 a. Chi^2 test
+
 b. difference of means t-test
+
 c. correlation coefficient t-test
+
 d. covariance matrix
 
 **Answer**
@@ -236,8 +275,11 @@ so the answer is b, we want to split the data into two data sets, by gender, the
 #### 12. Which statement about causal theory is correct?
 
 a. Experimental design is one of the observational studies.
+
 b. Dependent variable is often called Treatment and we ultimately want to know how this affects the outcome variable.
+
 c. We usually rely on observational studies to examine the causal relationship between X and Y.
+
 d. Operationalization is a way to measure the Dependent variable and independent variable
 
 **Answer**
@@ -258,9 +300,13 @@ This leaves c as the only answer
 #### 13. Which is not a part of the four hurdles to causality? Choose all
 
 a. We should control for all confounding variables
+
 b. We should avoid any possibility where X could Cause Y
+
 c. We should observe a credible causal mechanism connecting two variables
+
 d. We should observe covariation between X and Y
+
 e. We should have as many independent variables as possible
 
 **Answer**
@@ -283,8 +329,11 @@ The 4 Hurdles to Causality are:
 #### 14. In the lecture, we talked about Polity IV index as a measure on democracy. This index mostly captures whether the government executive faces contestation, but lacks the information about political participation--another important part of democracy.  Therefore, this measure is weak in
 
 a. concept clarity
+
 b. reliability
+
 c. validity
+
 d. efficiency
 
 **Answer**
@@ -307,8 +356,11 @@ t = 1.8409, df=97.385, p-value = 0.06867
 Which of the following is true?
 
 a. The null hypothesis being tested here is that there is a difference between group means in the population.
+
 b. This test is based on the normal distribution
+
 c. You have a significant result here
+
 d. You cannot confidently reject the null hypothesis
 
 **Answer**
@@ -322,14 +374,18 @@ You cannot confidently reject the null hypothesis because we have a p-value of g
 Welch Two Sample T-Test assumes normal distribution for data sets
 
 a.) The null hypothesis is that there is no difference between group means
+
 c.) The result is not significant because the p-value is too high
 
 
 #### 16. Which statement is not correct?
 
 a. With a random sample with a sufficient large size (n>30), we can do statistical inference by invoking the central limit theorem where we rely on the sampling distribution.
+
 b. When we invoke the CLT, the mean of the sample is going to be the best guess for the mean of the population.
+
 c. Standard errors will become larger as the number of sample size increases, which results in a wider confidence level.
+
 d. We can use the confidence interval to test our hypothesis about the unknown values of the population.
 
 **Answer**
@@ -341,9 +397,13 @@ As sample size grows, the standard error will decrease, because higher sample si
 #### 17. Which codes would you use to produce the following plot?
 
 a. ggplot(data, aes(Exam1, factor(Study)) + geom_boxplot() + theme_bw())
+
 b. ggplot(data, aes(factor(Study), Exam1)) + geom_boxplot() + theme_bw())
+
 c. ggplot(data, aes(Exam1, factor(Study)) + geom_point() + theme_bw())
+
 d. ggplot(data, aes(factor(Study), Exam1) + geom_point() + theme_bw())
+
 e. qplot(grades$Exam1,data$factor(Study)) + theme_bw()
 
 **Answer**
@@ -365,8 +425,11 @@ y
 After making a data frame xy, you're running the code xy[4,2]. which output would this code generate?  Note that the vector x will be the first column
 
 a. 42
+
 b. "D"
+
 c. "A" "B" "C" "D" "E"
+
 d. 42, D
 
 **Answer**
@@ -376,7 +439,9 @@ b
 Ran this in R
 
 (x <- c(10, 13, 100, 42, 55))
+
 (y <- c("A", "B", "C", "D", "E"))
+
 xy <- data.frame(x, y)
 
 (xy[4,2])
@@ -385,8 +450,11 @@ xy <- data.frame(x, y)
 #### 19. Operationalization means...
 
 a. setting up how to measure the independent variable and dependent variable
+
 b. concise statement of how changes in the independent variable affect the dependent variable
+
 c. explaining why the independent variable affects the dependent variable
+
 d. testing statistical models and parameters
 
 **Answer**
@@ -400,8 +468,11 @@ Operationalization is the process by which researchers conducting quantitative r
 #### 20. Choose a correct statement.
 
 a. We use the mode value when we have skewed data
+
 b. continuous variables have equal unit differences
+
 c. The squared root of standard deviation is equal to variance
+
 d. The treatment group is usually used as a dependent variable
 
 **Answer**
@@ -409,15 +480,20 @@ d. The treatment group is usually used as a dependent variable
 b
 
 a.) You would use the median for skewed data
+
 c.) The opposite is true, the standard deviation is equal to the square root of the variance
+
 d.) The treatment group is the group where the dependent variable is being tested. e.g. in a drug test, the control group is the group that takes a placebo, where the treatment group is the group that actually gets the drug. the dependent variable is effectiveness of the drug
 
 
 #### 21. Choose a correct statement
 
 a. We use CDFs to obtain the probability for any range
+
 b. PMFs are used for continuous models
+
 c. The Poisson distribution is a PDF
+
 d. When we have a discrete probability, we would integral the PDF to get the CDF
 
 **Answer**
@@ -425,7 +501,9 @@ d. When we have a discrete probability, we would integral the PDF to get the CDF
 a
 
 b.) PDFs (Probability Density Functions) are used for continuous models
+
 c.) The Poisson distribution is a PMF (Probability Mass Function)
+
 d.) When we have a continuous probability, we would integral the PDF to get the CDF
 
 The CDF is the probability of retrieving a result less than or equal to x.  e.g. if you roll a 6 sided die, there is about a 1/6 or 16.67% chance of retrieving any number.  Therefore the CDF of x, is the probability that you roll x or lower. The CDF of 2 in this case would then be the probability that you roll a 1 or 2 (2/6 or 33.33%).
@@ -433,8 +511,11 @@ The CDF is the probability of retrieving a result less than or equal to x.  e.g.
 #### 22. When you want to select everything except the first three elements of the vector "y"...
 
 a. y[-(1:3)]
+
 b. y[0:2]
+
 c. y[1:3]
+
 d. y[-(0:2)]
 
 **Answer**
@@ -446,8 +527,11 @@ tested in r
 #### 23. In R, create an object "z" and store the value "10" to this object.
 
 a. z <- 10
+
 b. z -> 10
+
 c. z == 10
+
 d. z - 10
 
 **Answer**
@@ -457,8 +541,11 @@ a
 #### 24. In R, create a new vector x that takes a value 1 when y is equal to 13 and 0 everywhere that y is not equal to 13.
 
 a. x <- ifelse(y\==1, 1, 0)
+
 b. x <- ifelse(y\==13, 1, 0)
+
 c. y <- ifelse(x\==13, 1, 0)
+
 d. x <- ifelse(y\==13, 0, 1)
 
 **Answer**
@@ -469,8 +556,11 @@ c
 #### 25. Choose a correct statement.
 
 a. When we have categorical variables, the central tendency can be obtained by using the mean of the variables.
+
 b. If event A and B are disjoint, they are always independent
+
 c. Models assume a simplified world with sample statistics
+
 d. A measure is said to be reliable only when we have random measurement errors.
 
 **Answer**
@@ -478,5 +568,7 @@ d. A measure is said to be reliable only when we have random measurement errors.
 c.
 
 a.) You would use mode to gather central tendency of a categorical variable
+
 b.) if event A and B are disjoint they must not be independent
+
 d.) A measure is said to be reliable when it is consistent based on given inputs with little to no error.
